@@ -8,7 +8,7 @@ def calculateCompoundInterest():
 
  amount = (client_one_principal*(1+(client_one_rate/100))**client_one_time)
  interest = round((amount - client_one_principal),2)
- print("Compound Interest: "+str(interest)+"\n")
+ print("Compound Interest: "+str(interest))
 
  client_two_principal = float(input("Principle (amount): "))
  client_two_time =      float(input("Time:               "))
@@ -16,7 +16,7 @@ def calculateCompoundInterest():
 
  amount = (client_two_principal*(1+(client_two_rate/100))**client_two_time)
  interest = round((amount - client_two_principal),2)
- print("Compound Interest: "+str(interest)+"\n")
+ print("Compound Interest: "+str(interest))
 
  client_three_principal = float(input("Principle (amount): "))
  client_three_time =      float(input("Time:               "))
